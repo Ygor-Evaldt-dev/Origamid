@@ -6,4 +6,5 @@ const percAumento = parseFloat(prompt("Percentual de aumento: "));
 const valorAumento = salario * (percAumento / 100);
 const novoSalario = salario + valorAumento;
 
-console.log(`O novo salário do colaborador ${colaborador} é $${novoSalario.toFixed(2)} reais`);
+console.log(`O novo salário do colaborador ${colaborador} é $${novoSalario.toFixed(2)} reais`
+);
