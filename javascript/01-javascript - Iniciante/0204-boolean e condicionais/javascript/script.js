@@ -11,15 +11,15 @@ if (minhaIdade > outraIdade) {
 }
 
 /* Qual valor é retornado na seguinte expressão? "3" pois nessa caso como não há valores falsos a condição "&&"" vai retornar o ultimo valor verdadeiro */
-var expressao = 5 - 2 && 5 - " " && 5 - 2;
+let expressao = 5 - 2 && 5 - " " && 5 - 2;
 console.log(expressao); //3
 
 // Verifique se as seguintes variáveis são Truthy ou Falsy
-var nome = "Andre"; //True
-var idade = 28; //True
-var possuiDoutorado = false; //False
-var empregoFuturo; //False
-var dinheiroNaConta = 0; //False
+let nome = "Andre"; //True
+let idade = 28; //True
+let possuiDoutorado = false; //False
+let empregoFuturo; //False
+let dinheiroNaConta = 0; //False
 console.log(
   !!nome,
   !!idade,
@@ -29,8 +29,8 @@ console.log(
 );
 
 // Compare o total de habitantes do Brasil com China (valor em milhões)
-var brasil = 207;
-var china = 1340;
+let brasil = 207;
+let china = 1340;
 
 if (brasil > china) {
   console.log("Brasil tem mais habitantes");
